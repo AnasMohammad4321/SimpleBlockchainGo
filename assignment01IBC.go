@@ -118,8 +118,8 @@ func main() {
 	chainHead = InsertBlock([]string{"Transaction 3"}, chainHead)
 
 	// Uncomment these lines to list the blocks and verify the chain
-	// ListBlocks(chainHead)
-	// VerifyChain(chainHead)
+	ListBlocks(chainHead)
+	VerifyChain(chainHead)
 
 	transactionToChange := "Transaction 2"
 	newTransaction := "Updated Transaction 2"
